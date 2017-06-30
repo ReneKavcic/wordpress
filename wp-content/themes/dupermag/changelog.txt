@@ -1,0 +1,30 @@
+== Change log ==
+
+= 1.2.1 May 17 2017=
+* Update : Image Size Recommendation
+* Fix : Some Minor Bugs
+
+= 1.2.0 May 15 2017=
+* Update : According to parent theme SuperMag
+
+= 1.0.5 Dec 06 2016=
+* Update : Create Parent Theme Compatible
+
+= 1.0.4 - Oct 02 2016 =
+* Update : Blog Image Size
+
+= 1.0.3 - Sept 30 2016 =
+* Added: Theme Update Class for Pro
+* Update : Default Width
+* Fix: CSS tweaks
+
+= 1.0.2 =
+* Update : Theme Demo ( http://www.demo.acmethemes.com/dupermag/ ) and Screenshot image
+* Update : Default Primary color
+* Fix    : CSS tweaks
+
+= 1.0.1 =
+* Fix: CSS tweaks
+
+= 1.0.0 =
+* Initial release

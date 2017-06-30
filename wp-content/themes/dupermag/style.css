@@ -1,0 +1,87 @@
+/*
+ Theme Name:   DuperMag
+ Theme URI:    http://www.acmethemes.com/themes/dupermag/
+ Description:  DuperMag is a Child Theme Of SuperMag. DuperMag is perfect theme for news, magazine, blog, reviews or personal sites. Full image blog and full image single post make it really cool. DuperMag extend the SuperMag theme with more beautifully crafted design. Get free support at https://www.acmethemes.com/acmethemes-supports/ and see demo here http://www.demo.acmethemes.com/dupermag/
+ Author:       acmethemes
+ Author URI:   http://www.acmethemes.com/
+ Template:     supermag
+ Version:      1.2.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-menu, featured-images, footer-widgets, sticky-post, theme-options, threaded-comments, translation-ready, blog, news
+ Text Domain:  dupermag
+*/
+/*common css*/
+/* COMMON WIDGETS */
+.widget-title,
+.page-header .page-title,
+.single .entry-header .entry-title,
+.page .entry-header .entry-title {
+    font-size:17px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 0;
+    position: relative;
+    text-transform: uppercase;
+    float: left;
+    width: 100%;
+}
+
+.widget-title:before,
+.page-header .page-title:before,
+.single .entry-header .entry-title:before,
+.page .entry-header .entry-title:before
+{
+    bottom: 0;
+    content: '';
+    display: inline-block;
+    left: 0;
+    position: absolute;
+    text-transform: uppercase;
+}
+.widget-title:before,
+.page-header .page-title:before,
+.single .entry-header .entry-title:before,
+.page .entry-header .entry-title:before
+{
+    width: auto;
+}
+.widget-title span,
+.page-header .page-title > span,
+.single .entry-header .entry-title > span,
+.page .entry-header .entry-title > span
+{
+    display: block;
+    float: left;
+    color: #fff;
+    padding: 5px 10px;
+    position: relative;
+    z-index: 5;
+}
+.widget-title span a{
+    color: #fff;
+}
+.widget-title span:after,
+.page-header .page-title > span:after,
+.single .entry-header .entry-title > span:after,
+.page .entry-header .entry-title > span:after
+{
+    width: 40px;
+    height: 100%;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transform: skew(30deg);
+    top: 0;
+    right: -20px;
+}
+/*related posts*/
+.featured-related-posts .widget-image{
+    margin-bottom: 10px;
+}
+/*feature desc title on widget*/
+.featured-post-main .featured-desc,
+#primary .not-featured-post-main .featured-desc {
+    display: table;
+    padding-top: 6px;
+}

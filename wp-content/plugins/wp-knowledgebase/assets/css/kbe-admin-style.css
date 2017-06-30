@@ -1,0 +1,128 @@
+/*================
+	>> KBE Stylesheet
+================*/
+
+.kbe_admin_left_bar{
+    float: left;
+    width: 68%;
+    height: auto;
+    margin-top: 30px;
+}
+.kbe_admin_left_content{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.kbe_admin_left_heading{
+    background-color: #F1F1F1;
+    background-image: -moz-linear-gradient(center top , #F9F9F9, #ECECEC);
+    border-color: #DFDFDF;
+    border-style: solid;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-width: 1px;
+    box-shadow: 0 1px 0 #FFFFFF inset;
+    color: #464646;
+    cursor: pointer;
+    font-size: 13px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+.kbe_admin_left_heading h3{
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: normal;
+    margin: 0;
+    overflow: hidden;
+    padding: 14px 10px;
+    white-space: nowrap;
+    cursor: default;
+	font-weight:bold;
+}
+.kbe_admin_settings,
+.kbe_admin_body{
+    border-radius: 0 0 5px 5px;
+    border: 1px solid #DFDFDF;
+    border-top: none;
+    padding: 10px;
+    background-color:#FFFFFF;
+}
+.kbe_admin_body{
+    margin-bottom: 30px;
+}
+.kbe_admin_body p{
+    padding:0px;
+    margin:0px;
+    font-family: Arial;
+    font-size: 13px;
+    text-align: left;
+    font-style:italic;
+    color:#666666;
+    margin:14px 0px;
+}
+.kbe_admin_settings .kbe_notifications{
+    font-size: 12px;
+    font-style: italic;
+}
+.kbe_admin_settings table p.slug_note{
+    font-size: 12px;
+    font-style: italic;
+}
+.kbe_admin_settings table td{
+    border-bottom: 1px solid #E4E2E2;
+    padding-bottom: 3px;
+}
+.kbe_admin_settings label{
+    display: inline-block;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    cursor: default;
+    padding: 12px 0px;
+    color:#000;
+}
+.kbe_admin_settings span{
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    color:#000;
+}
+.kbe_admin_settings input[type="text"]{
+    font-family: Arial;
+    font-size: 14px;
+    width: 100%;
+    height: 28px;
+    padding: 0px 8px;
+    margin-bottom: 8px;
+    margin-top: 12px;
+}
+.kbe_admin_order li{
+    background-color: #FCFCFC;
+    border: 1px solid #DFDFDF;
+    border-radius: 4px;
+    cursor: move;
+    line-height: 1em;
+    margin-bottom: 6px;
+    padding: 0.6em 1em;
+}
+.kbe_admin_order li.ui-state-highlight{
+    background-color:lightYellow;
+    border-color:#E6DB55;
+    height:1em;
+}
+.kbe_admin_order li.sortable-placeholder {
+    height: calc( 1em - 2px );
+    border: 2px dashed #DFDFDF;
+    background: none;
+}
+.kbe_admin_sidebar{
+    float: right;
+    width: 28%;
+    height: auto;
+    margin-top: 30px;
+}
+.kbe_admin_settings p{
+	font-size: 12px;
+    font-style: italic;
+    margin: 0 0 6px;
+}
